@@ -27,6 +27,3 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/mrymzm/iFrame--Table--Form-HTML-Tags.git
-
-
-
