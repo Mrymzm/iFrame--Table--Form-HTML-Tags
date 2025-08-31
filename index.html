@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>        
+        <h1>Practicing Tags: List(ordered and unordered), Table, Form(labels, input), iFrame, Video</h1>
+        <list>
+            <ul>
+                <li>Mango</li>
+                    <ul>
+                        <li>color : yellow</li>
+                        <li>season : summer</li>
+                    </ul>
+                <li>orange</li>
+                <ul>
+                    <li>color : tangerine</li>
+                    <li>season : winter</li>
+                </ul>
+                <li> kiwi</li>
+                    <ul>
+                        <li>color : green</li>
+                        <li>season : summer</li>
+                    </ul>
+            </ul>
+            <ol>
+                <li>Mango</li>
+                    <ol type="a">
+                        <li>color : yellow</li>
+                        <li>season : summer</li>
+                    </ol>
+                <li>orange</li>
+                    <ol type="i">
+                        <li>color : tangerine</li>
+                        <li>season : winter</li>
+                    </ol>
+                <li> kiwi</li>
+                    <ol type="I">
+                        <li>color : green</li>
+                        <li>season : summer</li>
+                    </ol>
+            </ol>
+        </list> 
+        <table>
+            <caption>Student Data</caption>
+            <br>
+            <thead>
+                <tr>
+                    <th colspan="2">Data</th>
+                </tr>
+            </thead>
+            <br>
+            <tbody>
+                <tr>
+                    <td>Fatima </td>
+                    <td>7865</td>
+                </tr>
+                <tr>
+                    <td>Jack</td>
+                    <td>7866</td>
+                </tr>
+                <tr>
+                    <td>Nimra</td>
+                    <td>7867</td>
+                </tr>
+                <tr>
+                    <td>Zainab</td>
+                    <td>7868</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="/action.php">
+            <h3>Login</h3>
+            <input type="text" placeholder="Username">
+            <br>
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <h3>Choose your class</h3>
+            <label for="id1">
+                <input type="radio" value="Class XI" name="class" id="id1">Class XI
+            </label>
+            <br>
+            <label for="id2">
+                <input type="radio" value="Class XII" name="class" id="id2">Class XII
+            </label>
+
+            <h3>Select your subjects</h3>
+            <label for="id1">
+                <input type="checkbox" value="math" name="subjects" id="id1">math
+            </label>
+            <br>
+            <label for="id2">
+                <input type="checkbox" value="english" name="subjects" id="id2">english
+            </label>
+            <br>
+            <label for="id3">
+                <input type="checkbox" value="Islamiyat" name="subjects" id="id3">Islamiyat
+            </label>
+            <br>
+            <label for="id4">
+                <input type="checkbox" value="Anatomy" name="subjects" id="id4">Anatomy
+            </label>
+            <br>
+            <h3>Choose your City</h3>
+            <select name="city" id="city">
+                <option value="Lahore">Lahore</option>
+                <option value="Gujranwala">Gujranwala</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Karachi">Karachi</option>
+            </select>
+            <br>
+            <h3>Feedback Cornor</h3>
+            <textarea name="Feedback" id="Feedback" placeholder="leave your feedback" rows="5"></textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form> 
+        <h3>wikipedia</h3>
+        <iframe src="https://www.wikipedia.org"></iframe>
+        <br>
+        <iframe width="560" height="315" src="https://youtube.com/embed/m-Uq-mvY56M?si=ffBVR1qrmfiDPqTt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <iframe src="https://assets.pinterest.com/ext/embed.html?id=677017756523870172" height="532" width="345" frameborder="0" scrolling="no" ></iframe>
+        <h3>Watch</h3>
+        <video width="560" height="315"src="assets/myvideo.mp4"controls loop >myvideo</video>
+    </body>
+</html>
